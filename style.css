@@ -66,8 +66,7 @@
             transition: color 0.3s;
             background-color: var(--light-cream);
             padding: 1rem;
-            border-radius: 10px;
-            
+            border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
 
@@ -116,12 +115,14 @@
             background-color: var(--golden-yellow);
             color: var(--dark-brown);
             margin-right: 1rem;
+            
         }
 
         .btn-secondary {
             background-color: transparent;
             color: white;
             border: 2px solid white;
+           
         }
 
         .btn:hover {
@@ -307,8 +308,16 @@
             .about-content, .contact-container {
                 grid-template-columns: 1fr;
             }
-            nav a {  
-             padding: 0.5rem;
+            nav a {
+                width: 260px;
+                text-decoration: none;
+                color: var(--dark-brown);
+                font-weight: 500;
+                transition: color 0.3s;
+                background-color: var(--light-cream);
+                padding: 0.7rem;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             }
 
             .hero h1 {
@@ -318,15 +327,15 @@
                 background-color: var(--golden-yellow);
                 color: var(--dark-brown);
                 margin-right: 0.8rem;
-                padding: 15px;
-                font-size: 15px;
+                padding: 10px;
+                font-size: 10px;
             }
             .btn-secondary {
                 background-color: transparent;
                 color: white;
                 border: 2px solid white;
-                padding: 15px;
-                font-size: 15px;
+                padding: 8px;
+                font-size: 10px;
             }
             nav ul {
                 gap: 1rem;
@@ -334,9 +343,19 @@
              body {
                 padding: 3px;
             }
-               header {
+            header {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+            }
+            .logo-text {
+                font-size: 1.1rem;
+                font-weight: 500;
+                color: var(--warm-brown);
+            }
+            .logo {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
             }
         }
