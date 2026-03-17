@@ -334,4 +334,9 @@
              body {
                 padding: 3px;
             }
+               header {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
