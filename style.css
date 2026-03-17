@@ -59,12 +59,12 @@
         }
 
         nav a {
-            width: 260px;
+            width: 50px;
             text-decoration: none;
-            color: var(--dark-brown);
+            color: var(--light-cream);
             font-weight: 500;
             transition: color 0.3s;
-            background-color: var(--light-cream);
+            background-color: var(--warm-brown);
             padding: 1rem;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -309,13 +309,14 @@
                 grid-template-columns: 1fr;
             }
             nav a {
-                width: 260px;
+                width: 50px;
                 text-decoration: none;
-                color: var(--dark-brown);
+                color: var(--light-cream);
                 font-weight: 500;
                 transition: color 0.3s;
-                background-color: var(--light-cream);
+                background-color: var(--warm-brown);
                 padding: 0.7rem;
+                font-size: 10px;
                 border-radius: 5px;
                 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             }
