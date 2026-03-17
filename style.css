@@ -29,6 +29,8 @@
             position: sticky;
             top: 0;
             z-index: 100;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
         }
 
         .logo-container {
@@ -87,6 +89,8 @@
             justify-content: center;
             text-align: center;
             padding: 0 5%;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
         }
 
         .hero h1 {
