@@ -82,8 +82,7 @@
 
         /* Hero Section */
         .hero {
-            margin-top: 
-            10px;
+            margin: 10px;
             height: 50vh;
             background: var(--warm-brown);
             color: white;
